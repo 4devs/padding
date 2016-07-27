@@ -1,0 +1,35 @@
+{
+    "name": "fdevs/padding",
+    "type": "library",
+    "description": "FDevs Padding Component",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Samusev",
+            "email": "andrey_simfi@list.ru",
+            "homepage": "http://andrey.4devs.io"
+        },
+        {
+            "name": "4devs Community",
+            "homepage": "https://github.com/4devs/padding/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9 || ~7.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.1"
+    },
+    "suggest": {
+        "ext-mbstring": "For use PKCS#7"
+    },
+    "autoload": {
+        "psr-4": {
+            "FDevs\\Padding\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
